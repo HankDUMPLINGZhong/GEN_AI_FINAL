@@ -1,0 +1,72 @@
+{
+  "class_title": "Introduction to Limits and Continuity",
+  "teaching_goal": [
+    "Introduce the concept of limits as a foundation for calculus.",
+    "Explain different ways to evaluate limits (graphically, numerically, algebraically).",
+    "Discuss the concept of continuity and its relationship with limits."
+  ],
+  "class_structure": {
+    "warm_up": {
+      "duration": "5 minutes",
+      "tasks": [
+        "Discuss the importance of calculus and real-world applications.",
+        "Ask students: 'What do you think happens when we get infinitely close to a point on a function?'"
+      ]
+    },
+    "core_lesson": {
+      "duration": "20 minutes",
+      "topics": [
+        {
+          "title": "Introduction to Limits",
+          "duration": "10 minutes",
+          "concepts": [
+            "Definition of a limit",
+            "Ways to evaluate limits: graphically, numerically, algebraically"
+          ],
+          "examples": [
+            "lim(x → a) f(x) = L means f(x) gets arbitrarily close to L as x approaches a.",
+            "Graphical representation of limits."
+          ]
+        },
+        {
+          "title": "Continuity and Limits",
+          "duration": "10 minutes",
+          "concepts": [
+            "Conditions for continuity",
+            "Types of discontinuities: removable, jump, and infinite"
+          ],
+          "examples": [
+            "Checking continuity using limit properties."
+          ]
+        }
+      ]
+    },
+    "guided_practice": {
+      "duration": "10 minutes",
+      "problems": [
+        {
+          "question": "Find lim(x → 2) (x^2 - 4) using a table.",
+          "type": "numerical"
+        },
+        {
+          "question": "Find lim(x → 3) (x^2 - 9) / (x - 3).",
+          "type": "algebraic"
+        },
+        {
+          "question": "Determine whether the function is continuous at x = 1:\n f(x) = { x + 2, x < 1; 3, x = 1; x^2, x > 1 }",
+          "type": "conceptual"
+        }
+      ]
+    },
+    "wrap_up": {
+      "duration": "5 minutes",
+      "summary": [
+        "Recap key points: limits, evaluation methods, continuity conditions."
+      ],
+      "homework": [
+        "Find lim(x → 4) (x^2 - 16) / (x - 4).",
+        "Determine whether f(x) = |x - 3| / (x - 3) is continuous at x = 3."
+      ]
+    }
+  }
+}
