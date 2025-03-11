@@ -11,12 +11,8 @@ class AILecturer:
         self.class_num = class_num
         self.ta = TeachingAssistant(subject, class_num)
         self.feedback_giver = FeedbackGiver(isOPENAI=True)
-
-        # Load lesson plan
         self.ta.convert_prompt(isPrint=False)
         self.class_info = self.ta.get_classinfo()
-
-        # Teaching state tracking
         self.phase = "warm_up"  # Phases: warm_up → core_lesson → guided_practice → wrap_up → done
         self.current_step = 0
         self.current_topic_index = 0
